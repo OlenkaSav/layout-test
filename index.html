@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test-task</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <nav>
+          <a href="index.html" class="sidebar-logo">
+            <svg class="sidebar-logo__icon" width="37px" height="37px">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+            <div class="sidebar-logo__text">
+              <p>Dashboard</p>
+              <span class="sidebar-logo__version">v.01</span>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a class="sidebar-link">
+                <svg class="sidebar-icon stroke" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-key-square"></use>
+                </svg>
+                <p class="sidebar-link__text">Dashboard</p>
+              </a>
+            </li>
+            <li>
+              <a class="sidebar-link">
+                <svg class="sidebar-icon fill" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-d-square-1"></use>
+                </svg>
+                <p class="sidebar-link__text">Product</p>
+                <svg class="sidebar-icon__right" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-chevron-right-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sidebar-link">
+                <svg
+                  class="sidebar-icon fill stroke"
+                  width="24px"
+                  height="24px"
+                >
+                  <use href="./images/icons.svg#icon-user-square-1"></use>
+                </svg>
+                <p class="sidebar-link__text">Customers</p>
+                <svg class="sidebar-icon__right" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-chevron-right-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sidebar-link">
+                <svg class="sidebar-icon stroke" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-wallet-money-2"></use>
+                </svg>
+                <p class="sidebar-link__text">Income</p>
+                <svg class="sidebar-icon__right" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-chevron-right-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sidebar-link">
+                <svg class="sidebar-icon fill" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-discount-shape-1"></use>
+                </svg>
+                <p class="sidebar-link__text">Promote</p>
+                <svg class="sidebar-icon__right" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-chevron-right-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="sidebar-link">
+                <svg class="sidebar-icon fill" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-message-question-1"></use>
+                </svg>
+                <p class="sidebar-link__text">Help</p>
+                <svg class="sidebar-icon__right" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-chevron-right-2"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-user">
+          <img
+            src="./images/user.png"
+            alt="User photo"
+            class="sidebar-user__photo"
+          />
+          <div class="sidebar-user__text">
+            <h3>Evano</h3>
+            <p>Project Manager</p>
+          </div>
+        </div>
+      </aside>
+      <main class="content">
+        <h3>Hello Evano 👋🏼,</h3>
+        <section class="content-container">
+          <div class="content-header">
+            <div class="content-header__text">
+              <h3>All Customers</h3>
+              <p>Active Members</p>
+            </div>
+            <form class="content-header__form">
+              <input class="content-search" placeholder="Search" type="text" />
+            </form>
+          </div>
+          <table class="content-table">
+            <thead>
+              <tr class="content-table-head">
+                <th>Customer Name</th>
+                <th>Company</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Country</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="content-table-row">
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td><button class="table-button active">Active</button></td>
+              </tr>
+              <tr class="content-table-row">
+                <td>Floyd Miles</td>
+                <td>Yahoo</td>
+                <td>(225) 555-0118</td>
+                <td>floyd@yahoo.com</td>
+                <td>Kiribati</td>
+                <td><button class="table-button inactive">Inactive</button></td>
+              </tr>
+              <tr class="content-table-row">
+                <td>Ronald Richards</td>
+                <td>Adobe</td>
+                <td>(302) 555-0107</td>
+                <td>ronald@adobe.com</td>
+                <td>Israel</td>
+                <td><button class="table-button inactive">Inactive</button></td>
+              </tr>
+              <tr class="content-table-row">
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td><button class="table-button active">Active</button></td>
+              </tr>
+              <tr class="content-table-row">
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td><button class="table-button active">Active</button></td>
+              </tr>
+              <tr class="content-table-row">
+                <td>Ronald Richards</td>
+                <td>Adobe</td>
+                <td>(302) 555-0107</td>
+                <td>ronald@adobe.com</td>
+                <td>Israel</td>
+                <td><button class="table-button inactive">Inactive</button></td>
+              </tr>
+              <tr class="content-table-row">
+                <td>Ronald Richards</td>
+                <td>Adobe</td>
+                <td>(302) 555-0107</td>
+                <td>ronald@adobe.com</td>
+                <td>Israel</td>
+                <td><button class="table-button inactive">Inactive</button></td>
+              </tr>
+              <tr class="content-table-row">
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td><button class="table-button active">Active</button></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="content-footer">
+            <p>Showing data 1 to 8 of 256K entries</p>
+            <div class="content-footer__pagination">
+              <button class="footer-button"><</button>
+              <button class="footer-button active">1</button>
+              <button class="footer-button">2</button>
+              <button class="footer-button">3</button>
+              <button class="footer-button">4</button>
+              <p>...</p>
+              <button class="footer-button">40</button>
+              <button class="footer-button">></button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
